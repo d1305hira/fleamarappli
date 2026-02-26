@@ -1,0 +1,69 @@
+.item_detail_info {
+ flex: 1;
+ max-width: 400px;
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.item_description,
+.item_block_info,
+.comments_section,
+form {
+ max-width: 400px;
+ width: 100%;
+ margin-bottom: 1.5rem;
+}
+
+form textarea#comment {
+ max-width: 400px;
+ width: 100%;
+ height: 120px;
+ padding: 0.8rem;
+ border-radius: 6px;
+ border: 1px solid #ccc;
+ resize: vertical;
+ margin-bottom: 1rem;
+ font-size: 1rem;
+}
+
+/* ボタンの幅を400pxに統一 */
+.btn-danger,
+.btn-comment {
+ width: 400px;
+ max-width: 100%;
+ text-align: center;
+ display: block;
+ margin: 0 auto;
+ /* 中央揃え */
+}
+
+@media (max-width: 768px) {
+ .item_detail {
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .item_detail_image {
+  padding-left: 1rem;
+  }
+
+ .item_detail_info {
+  max-width: 100%;
+  padding: 0 1rem;
+ }
+
+ form textarea#comment {
+  max-width: 100%;
+ }
+
+ .btn-danger {
+  width: 100%;
+ }
+}
+
+.item_detail_image img {
+ max-width: 500px;
+ border-radius: 8px;
+ object-fit: cover;
+}

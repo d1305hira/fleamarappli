@@ -1,0 +1,46 @@
+.container {
+ max-width: 600px;
+ margin: 40px auto;
+ background-color: #fff;
+ padding: 30px;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+}
+
+h2 {
+ margin-bottom: 30px;
+ font-weight: bold;
+ font-size: 24px;
+ border-bottom: 1px solid #ccc;
+ padding-bottom: 10px;
+}
+
+.form-group {
+ margin-bottom: 20px;
+ border-bottom: 1px solid #eee;
+ padding-bottom: 15px;
+}
+
+label {
+ font-weight: bold;
+ margin-bottom: 8px;
+ display: block;
+}
+
+input.form-control {
+ width: 100%;
+ padding: 10px;
+ font-size: 16px;
+}
+
+.btn-danger {
+ width: 100%;
+ padding: 12px;
+ font-size: 16px;
+ background-color: #e60023;
+ border: none;
+}
+
+.btn-secondary {
+ margin-bottom: 20px;
+}
