@@ -1,35 +1,13 @@
-# Dependency directories
 /vendor/
 /node_modules/
-
-# Environment and config
 .env
-*.env
-*.key
-*.pem
-*.crt
-config/*.php
-
-# Docker volumes
+.env.*
+/storage/*.key
+/public/storage
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/storage/app/public/*
 docker/mysql/data/
-
-# Logs
-*.log
-
-# IDE/editor files
-*.swp
-*.swo
-*.bak
-*.tmp
-.DS_Store
-.env.testing
-src/.env
-src/.env.example
-src/.env
-src/.env.example
-src/.env.testing
-.env
-.env.testing
-src/.env
-src/.env.testing
-src/.env.example
